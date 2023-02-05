@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="./src/img/logo-removebg-preview.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Kanit&family=Passion+One&family=Poppins:wght@100;300;500&family=Roboto&family=Rubik+Glitch&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+
+    <title>Star Trek</title>
+  </head>
+  <body>
+    <div class="fundo"></div>
+
+    <header class="header">
+      <a href="">
+        <img
+          class="logo"
+          src="./src/img/logo-removebg-preview.png"
+          alt="logo simbolo frota estrelar"
+        />
+      </a>
+
+      <nav class="navigation">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a id="menuAtivo" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a id="menuAtivo" href="detalhes.html">Detalhes</a>
+          </li>
+        </ul>
+        <div class="menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="info">
+        <img
+          class="imagem-titulo"
+          src="./src/img/star-trek-titulo.png"
+          alt="imagem do titulo"
+        />
+        <p class="descricao">
+          Bem-vindo ao universo Star Trek, aqui você conhecerá a história, linha
+          do tempo, personagens e muito mais. Se você já é fã, faça daqui a sua
+          casa, e caso não seja, não perda tempo e entre nesse maravilhoso
+          universo com a gente.
+        </p>
+        <button class="botao-trailer">veja o que te espera</button>
+      </div>
+      <img class="enterprise" src="./src/img/uss enterprise.png" />
+
+      <div class="modal">
+        <div class="conteudo-modal">
+          <span class="fechar-modal">X</span>
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="./src/video/X2Download.app-50 Years of Star Trek... and Beyond.mp4"
+            title="YouTube video player"
+            frameborder="1"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+
+   <div class="footer">
+    
+      <h1> © 2023 Julia J. Pereira </h1>
+    
+   </div>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
